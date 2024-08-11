@@ -1,0 +1,30 @@
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    
+    gap: 10px; /* Reduce this value to bring boxes closer */
+    padding: 0px;
+    width: 900px;
+    height: 150px;
+    background-color:white(238, 255, 0) ;
+    padding: 10px;
+  }
+  
+  .main{
+    display: flex;
+    
+
+  }
+ 
+  .right{
+    height: 500px;
+    width: 300px;
+    background-color: white;
+
+
+  }
+  .left{
+    background-color: white;
+    height: 50px;
+    
+  }

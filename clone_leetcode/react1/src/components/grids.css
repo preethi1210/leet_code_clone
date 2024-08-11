@@ -1,0 +1,63 @@
+.main1{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+    grid-template-rows: repeat(2, auto); /* 2 rows with auto height */
+    gap: 10px; /* Space between grid items */
+    padding: 40px;
+    width: 920px; /* Adjust as needed */
+    background-color: white; /* Background color */
+    height: 200px;
+  
+}
+.main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns of equal width */
+    grid-template-rows: repeat(2, auto); /* 2 rows with auto height */
+    gap: 10px; /* Space between grid items */
+    padding: 10px;
+    width: 920px; /* Adjust as needed */
+    background-color: white; /* Background color */
+    height: auto; /* Adjust height as needed to fit content */
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+  }
+  
+  .grid-item {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Slight background color for items */
+    transition: box-shadow 0.3s ease; /* Smooth shadow transition on hover */
+  }
+  
+  .grid-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darker shadow on hover */
+  }
+  
+  .grid-item img {
+    width: 60px; /* Adjust size as needed */
+    height: 60px; /* Adjust size as needed */
+    margin-right: 10px;
+    border-radius: 4px; /* Optional: Round image corners */
+  }
+  
+  .grid-item .text {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .grid-item .title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .grid-item .description {
+    color: #666;
+    font-size: 10px;
+  }
+  
+  
+  
